@@ -107,6 +107,7 @@ header a {
 h1 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  width: 150%;
   letter-spacing: 2px;
   color: #252525;
 }
@@ -174,7 +175,7 @@ footer {
     box-shadow: none;
     width: fit-content;
     padding-right: 1rem;
-    margin-left: 40%;
+    margin-left: 35%;
   }
 
   #menu {
@@ -188,4 +189,16 @@ footer {
   .nav-toggle-label {
     display: none;
   }
+
+  #logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
+
+  main {
+    /* push main content down to accomodate larger header */
+    margin-top: 79px;
+  }
+
 }
