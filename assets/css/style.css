@@ -332,10 +332,19 @@ main {
     border-bottom: 1px solid #3a3a3a;
   }
 
+  nav {
+    margin-left: 45%;
+  }
+
 }
 
 /* media query for larger screens and upwards */
 @media screen and (min-width: 1200px) {
+
+  nav {
+    margin-left: 60%;
+  }
+
   #benefits {
     display: flex;
     flex-direction: row;
