@@ -73,6 +73,8 @@
 
 /* end of font classes */
 
+
+/* General styles */
 * {
   margin: 0;
   padding: 0;
@@ -96,7 +98,12 @@ h3 {
   color: #252525;
 }
 
-/* header */
+.hidden-heading {
+  display: none;
+}
+
+
+/* Header styles */
 header {
   background-color: #ffffff;
   padding: 0 1rem;
@@ -245,6 +252,29 @@ main {
   justify-content: center;
 }
 
+/* meet ups section */
+#times {
+  background: url("../images/dublin-city.webp") no-repeat center/cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#times div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+  /* this stops wrapping on narrow screens */
+  flex-basis: 200px;
+  flex-grow: 1;
+  /* creates a grid of meet up time divs over the background image */
+  border: 2px solid white;
+}
+
+#times h3 {
+  /* override heading color from general styles */
+  color: #fafafa;
+}
 
 
 /* footer */
